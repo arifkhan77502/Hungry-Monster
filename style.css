@@ -35,11 +35,9 @@
     width: 100px;
     height: 100px;
 }
-
-#search {
-    display: block;
+#search{
+    margin: 2rem auto;
 }
-
 .search-btn {
     background-color: #F06C4E;
     width: 100px;
@@ -54,18 +52,8 @@
     outline: none;
 }
 
-.search-box {
-    width: auto;
-    height: auto;
-    margin: 50px 7rem;
-}
-
 .meal-wrap {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 20px;
-    padding: 20px;
-    margin: 20px auto;
+    margin: 0 auto;
     border-radius: 5px;
 }
 
@@ -74,11 +62,7 @@
     height: auto;
     cursor: pointer;
     border-radius: 20px;
-}
-
-.meal-info:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transition: all 0.3s ease-in-out;
+    padding: 1rem;
 }
 
 .meal-img img {

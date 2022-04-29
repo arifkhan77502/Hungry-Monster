@@ -13,6 +13,7 @@ const about = document.getElementById('about');
 const aboutInfo = document.getElementById('about-info');
 const blogBtn = document.getElementById('blog-btn');
 const blogs = document.getElementById('blogs');
+const mealBox = document.getElementById('meal-box');
 
 
 searchBtn.addEventListener('click', mealListItem);
@@ -22,13 +23,13 @@ closeBtn.addEventListener('click', () => {
 about.addEventListener('click', () => {
     aboutInfo.style.display = 'block';
     search.style.display = 'none';
-    mealList.style.display = 'none';
+    mealBox.style.display = 'none';
     blogs.style.display = 'none';
 });
 blogBtn.addEventListener('click', () => {
     blogs.style.display = 'block';
     search.style.display = 'none';
-    mealList.style.display = 'none';
+    mealBox.style.display = 'none';
     aboutInfo.style.display = 'none';
 });
 
@@ -47,7 +48,7 @@ function mealListItem() {
             if (data.meals) {
                 data.meals.forEach(meal => {
                     html += `
-        <div class="meal-info" data-id="${meal.idMeal}">
+        <div class="meal-info col-md-3" data-id="${meal.idMeal}">
             <div class="meal-img">
                 <img class="meal-details" src="${meal.strMealThumb}" alt="">
                 <h1 class="meal-details">${meal.strMeal}</h1>
@@ -61,7 +62,7 @@ function mealListItem() {
             aboutInfo.style.display = 'none';
             blogs.style.display = 'none';
             mealList.style.display = '';
-
+            mealBox.style.display = 'block';
         });
 }
 

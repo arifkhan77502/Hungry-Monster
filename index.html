@@ -55,24 +55,17 @@
     </section>
 
 
-    <section>
-        <div id="search">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="search-box">
-                            <form action="">
-                                <div class="input-group">
-                                    <input id="input-search" type="text" class="form-control"
-                                        placeholder="Search for Meal...">
-                                    <span class="input-group-btn">
-                                        <button id="search-btn" class="search-btn" type="button">
-                                            <i class="fa fa-search" aria-hidden="true"></i>
-                                        </button>
-                                    </span>
-                                </div>
-                            </form>
-                        </div>
+    <section class="input-box">
+        <div id="search" class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="input-group">
+                        <input id="input-search" type="text" class="form-control" placeholder="Search for Meal...">
+                        <span class="input-group-btn">
+                            <button id="search-btn" class="search-btn" type="button">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -84,15 +77,15 @@
 
     <!-- End First Part Information -->
 
-    <section class="container">
+    <section class="container" id="meal-box">
 
 
-        <div id="meal" class="meal-wrap">
-            <!-- <div class="meal-info">
+        <div id="meal" class="row meal-wrap d-flex justify-content-between align-items-center">
+            <!-- <div class="meal-info col-md-3">
                 <div class="meal-img">
                     <img class="meal-details" src="img/1.png" alt="">
                     <h1 class="meal-details">Beef Chicken</h1>
-                </div> -->
+                </div>-->
             </div>
 
 
@@ -100,7 +93,7 @@
 
 
 
-            <div id="meal-details-box">
+            <div id="meal-details-box" class="col-md-5">
                 <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
                     <i class="fa fa-times"></i>
                 </button>
@@ -149,36 +142,39 @@
 
 
 
+
 <div class="container blogs" id="blogs">
     <div class="title">
         <u><h1 class="text-center">BLOGS</h1></u>
     </div>
-    <div class="card mb-3 blog">
-        <img src="img/blog/4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <a href="https://www.cookingclassy.com/"><h1 class="card-title">Homemade Chocolate Cake</h1></a>
-            <p class="card-text">I think most of us could agree that chocolate cake is easily one of the best kinds of cake but sometimes there can be extra steps that actually aren’t all that necessary (like boiling water and using a mixer).</p>
+    <div class="blog-box row d-flex justify-content-between align-items-center">
+        <div class="card mb-3 blog col-md-4">
+            <img src="img/blog/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="https://www.cookingclassy.com/"><h1 class="card-title">Homemade Chocolate Cake</h1></a>
+                <p class="card-text">I think most of us could agree that chocolate cake is easily one of the best kinds of cake but sometimes there can be extra steps that actually aren’t all that necessary (like boiling water and using a mixer).</p>
+            </div>
         </div>
-    </div>
-    <div class="card mb-3 blog">
-        <img src="img/blog/1.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-            <a href="https://food52.com/blog/24898-cooking-bacon-in-the-oven"><h1 class="card-title">A Hands-Off, Splatter-Free Way to Cook Bacon</h1></a>
-            <p class="card-text">It has been decades since my husband and I decamped from Metropolis and moved to the country, which means one thing: We’ve had our fair share of power outages. In 1996, just three months into owning our first home, the power went out in a freak snowstorm that kept us in the dark for 11 days.</p>
+        <div class="card mb-3 blog col-md-4">
+            <img src="img/blog/1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="https://food52.com/blog/24898-cooking-bacon-in-the-oven"><h1 class="card-title">A Hands-Off, Splatter-Free Way to Cook Bacon</h1></a>
+                <p class="card-text">It has been decades since my husband and I decamped from Metropolis and moved to the country, which means one thing: We’ve had our fair share of power outages. In 1996, just three months into owning our first home, the power went out in a freak snowstorm that kept us in the dark for 11 days.</p>
+            </div>
         </div>
-    </div>
-    <div class="card mb-3 blog">
-        <img src="img/blog/2.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-            <a href="https://www.thekitchn.com/easter-dinner-recipes-267563"><h1 class="card-title">30 Easy and Classic Easter Dinner Recipes</h1></a>
-            <p class="card-text">Easter is just around the corner, which means it’s time to start thinking about what to make for dinner. Similar to the past couple of years, holiday dinners may still be smaller than the large celebrations of years past..</p>
+        <div class="card mb-3 blog col-md-4">
+            <img src="img/blog/2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="https://www.thekitchn.com/easter-dinner-recipes-267563"><h1 class="card-title">30 Easy and Classic Easter Dinner Recipes</h1></a>
+                <p class="card-text">Easter is just around the corner, which means it’s time to start thinking about what to make for dinner. Similar to the past couple of years, holiday dinners may still be smaller than the large celebrations of years past..</p>
+            </div>
         </div>
-    </div>
-    <div class="card mb-3 blog">
-        <img src="img/blog/3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <a href="https://www.seriouseats.com/what-to-cook-easter-brunch-lunch-dinner-menu"><h1 class="card-title">What to Cook for Easter Brunch and Dinner</h1></a>
-            <p class="card-text">But let's get to the main event. If preparing an Easter ham has you nervous, you'll want to start by reading The Food Lab's Definitive Guide to Buying and Cooking Hams.</p>
+        <div class="card mb-3 blog col-md-4">
+            <img src="img/blog/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="https://www.seriouseats.com/what-to-cook-easter-brunch-lunch-dinner-menu"><h1 class="card-title">What to Cook for Easter Brunch and Dinner</h1></a>
+                <p class="card-text">But let's get to the main event. If preparing an Easter ham has you nervous, you'll want to start by reading The Food Lab's Definitive Guide to Buying and Cooking Hams.</p>
+            </div>
         </div>
     </div>
 </div>
