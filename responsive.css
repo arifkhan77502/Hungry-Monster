@@ -1,0 +1,26 @@
+@media screen and (max-width: 868px) {
+    #meal-details-box{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin: 2rem auto;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        color: #fff;
+        background: #F06C4E;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        width: 70%;
+        height: 80%;
+        padding: 5px 20px 0 30px;
+        overflow-y: scroll;
+        display: none;
+    }
+}
+
